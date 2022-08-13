@@ -4,7 +4,7 @@ import TempAndDetails from './components/TempAndDetails'
 import TimeAndLocation from './components/TimeAndLocation'
 import TopButtons from './components/TopButtons'
 import getFormattedWeatherData from './services/weatherService'
-import {useEffect, useState} from 'react'
+import {useEffect, useState, React} from 'react'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
